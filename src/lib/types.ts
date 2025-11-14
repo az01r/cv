@@ -1,6 +1,8 @@
 import type { StaticImageData } from "next/image";
 
-export type ResumeIcon = React.ComponentType<React.SVGProps<SVGSVGElement>> | StaticImageData;
+export type ResumeIcon =
+  | React.ComponentType<React.SVGProps<SVGSVGElement>>
+  | StaticImageData;
 
 export type IconType = "github" | "linkedin" | "x" | "globe" | "mail" | "phone";
 
@@ -12,7 +14,7 @@ export interface ResumeData {
   about: string;
   summary: string | React.ReactNode;
   avatarUrl: string;
-  personalWebsiteUrl: string;
+  personalWebsiteUrl?: string;
   contact: {
     email: string;
     tel: string;
@@ -98,7 +100,7 @@ export interface GraphQLMe {
   about: string;
   summary: string;
   avatarUrl: string;
-  personalWebsiteUrl: string;
+  personalWebsiteUrl?: string;
   contact: GraphQLContact;
   education: GraphQLEducation[];
   work: GraphQLWork[];
