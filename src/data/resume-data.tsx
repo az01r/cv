@@ -45,7 +45,7 @@ export const RESUME_DATA: ResumeData = {
       description: (
         <>
           Responsible for architecting internal tooling with React.js, Node.js,
-          TypeScript and MongoDB, alongside maintaining production legacy
+          TypeScript and MongoDB, alongside maintaining production enterprise
           systems built on Java, JSP and Bootstrap for a union of banks.
         </>
       ),
