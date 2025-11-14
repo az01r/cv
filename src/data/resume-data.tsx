@@ -7,10 +7,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/Torino",
   about: "Full Stack Web developer.",
   summary: (
-    <>
-      Full Stack Web developer with a strong passion for clean and reusable
-      code.
-    </>
+    <>Full Stack Developer with a passion for clean and reusable code.</>
   ),
   avatarUrl: "https://avatars.githubusercontent.com/u/75796560?v=4",
   contact: {
@@ -42,11 +39,15 @@ export const RESUME_DATA: ResumeData = {
       company: "Tinexta Cyber",
       link: "https://www.tinextacyber.com/",
       badges: ["React.js", "Node.js", "TypeScript", "Java", "Bootstrap"],
-      title: "Frontend developer",
+      title: "Full stack developer",
       start: "2023",
       end: null,
       description: (
-        <>Working as a fronend developer for a consortium of banks.</>
+        <>
+          Responsible for architecting internal tooling with React.js, Node.js,
+          TypeScript and MongoDB, alongside maintaining production legacy
+          systems built on Java, JSP and Bootstrap for a union of banks.
+        </>
       ),
     },
     {
@@ -58,24 +59,22 @@ export const RESUME_DATA: ResumeData = {
       end: "2023",
       description: (
         <>
-          Design, development and maintenance of a web application in car
-          insurance sector.
-          <ul className="list-inside list-disc">
-            <li>Development</li>
-            <li>Ticketing</li>
-            <li>Report management</li>
-          </ul>
+          Developed and maintained an enterprise application in insurance
+          sector, managing the entire application lifecycle from UI to backend
+          logic. Designed, built and optimized reporting systems utilizing
+          scheduled Java batch processing for large-scale data delivery.
         </>
       ),
     },
   ],
   skills: [
     "React.js",
-    "TypeScript",
     "Node.js",
-    "REST services",
-    "Java",
-    "Oracle SQL",
+    "Flutter",
+    "TypeScript",
+    "Java EE",
+    "Mongo DB",
+    "Oracle DB",
   ],
   projects: [
     {
